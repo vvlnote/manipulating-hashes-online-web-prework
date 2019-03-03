@@ -8,7 +8,7 @@ def second_challenge
 
   #code your solution here!
   values_arr = []
-  groceries.values each do |arr_item|
+  groceries.values.each do |arr_item|
       arr_item.each do |item|
         values_arr << item
       end
